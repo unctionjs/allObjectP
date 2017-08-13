@@ -1,15 +1,14 @@
-import {toPairs} from "ramda"
-import {zipObj} from "ramda"
 import allP from "@unction/allp"
-import pairsKeys from "@unction/pairskeys"
-import pairsValues from "@unction/pairsvalues"
+import thenP from "@unction/thenp"
+import keys from "@unction/keys"
+import values from "@unction/values"
+import zip from "@unction/zip"
 
-
-export default function allObjectP (object: {[key: KeyType]: any | Promise<any>}): Promise<{[key: KeyType]: any}> {
-  const pairs = toPairs(object)
-
-  return allP(pairsValues(pairs))
-    .then(function rezip (resolves: Array<Promise<any>>): {[key: mixed]: any} {
-      return zipObj(pairsKeys(pairs))(resolves)
-    })
+export default function allObjectP (record: {[key: KeyType]: mixed | Promise<mixed>} | Map<KeyType, mixed | Promise<mixed>>): Promise<{[key: KeyType]: mixed} | Map<KeyType, mixed>> {
+  return thenP(
+    (resolutions: Array<mixed>): {[key: KeyType]: mixed} | Map<KeyType, mixed> =>
+      zip(keys(record))(resolutions)
+  )(
+    allP(values(record))
+  )
 }

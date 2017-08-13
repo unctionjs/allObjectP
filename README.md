@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> ({[key: KeyType]: any | Promise<any>}) => Promise<{[key: KeyType]: any}>
+> ({[key: KeyType]: mixed | Promise<mixed>} | Map<KeyType, mixed | Promise<mixed>>) => (Promise<{[key: KeyType]: mixed} | Map<KeyType, mixed>>)
 
 This takes an object where the values are probably promises and returns a promise that has that same object but with the resolved values.
 
