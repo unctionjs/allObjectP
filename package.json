@@ -1,6 +1,6 @@
 {
   "name": "@unction/allobjectp",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "Takes a record where the values are promises and returns a promise of that record with resolved values",
   "keywords": [
     "unction",
