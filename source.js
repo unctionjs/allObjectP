@@ -3,11 +3,12 @@ import thenP from "@unction/thenp"
 import keys from "@unction/keys"
 import values from "@unction/values"
 import zip from "@unction/zip"
+import pipe from "@unction/pipe"
+import fromArrayToObject from "@unction/fromarraytoobject"
 
-export default function allObjectP (record: {[key: KeyType]: mixed | Promise<mixed>} | Map<KeyType, mixed | Promise<mixed>>): Promise<{[key: KeyType]: mixed} | Map<KeyType, mixed>> {
+export default function allObjectP (record: RecordType): Promise<RecordType> {
   return thenP(
-    (resolutions: Array<mixed>): {[key: KeyType]: mixed} | Map<KeyType, mixed> =>
-      zip(keys(record))(resolutions)
+    pipe([zip(keys(record)), fromArrayToObject])
   )(
     allP(values(record))
   )

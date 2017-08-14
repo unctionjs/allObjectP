@@ -11,6 +11,6 @@ test(({same}) => {
     .then((resolution) => same(
       resolution, {
         aa: "aa",
-        bb: "bb"
+        bb: "bb",
       }))
 })

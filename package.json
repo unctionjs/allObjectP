@@ -48,9 +48,12 @@
   },
   "dependencies": {
     "@unction/allp": "1.0.5",
+    "@unction/fromarraytoobject": "1.0.0",
     "@unction/keys": "2.0.0",
+    "@unction/pipe": "1.0.0",
     "@unction/thenp": "1.0.5",
     "@unction/values": "2.0.0",
-    "@unction/zip": "1.0.3"
+    "@unction/zip": "1.0.3",
+    "zip": "1.2.0"
   }
 }
