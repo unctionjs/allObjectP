@@ -50,13 +50,13 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/allp": "2.1.0",
-    "@unction/fromarraytoobject": "2.1.0",
-    "@unction/keys": "3.0.0",
-    "@unction/pipe": "2.0.0",
-    "@unction/thenp": "2.0.0",
-    "@unction/values": "3.0.0",
-    "@unction/zip": "3.0.0",
+    "@unction/allp": "^2.1.0",
+    "@unction/fromarraytoobject": "^2.1.0",
+    "@unction/keys": "^3.0.0",
+    "@unction/pipe": "^2.1.0",
+    "@unction/thenp": "^2.1.0",
+    "@unction/values": "^3.1.0",
+    "@unction/zip": "^3.1.0",
     "zip": "1.2.0"
   },
   "nyc": {
