@@ -56,7 +56,7 @@
     "@unction/pipe": "2.37.0",
     "@unction/thenp": "2.6.0",
     "@unction/values": "3.37.0",
-    "@unction/zip": "3.38.0"
+    "@unction/zip": "3.39.0"
   },
   "nyc": {
     "require": [
