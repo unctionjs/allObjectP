@@ -51,12 +51,12 @@
   },
   "dependencies": {
     "@unction/allp": "2.8.0",
-    "@unction/fromarraytoobject": "2.42.0",
-    "@unction/keys": "3.41.0",
-    "@unction/pipe": "2.41.0",
+    "@unction/fromarraytoobject": "2.43.0",
+    "@unction/keys": "3.42.0",
+    "@unction/pipe": "2.42.0",
     "@unction/thenp": "2.8.0",
-    "@unction/values": "3.42.0",
-    "@unction/zip": "3.44.0"
+    "@unction/values": "3.43.0",
+    "@unction/zip": "3.45.0"
   },
   "nyc": {
     "require": [
