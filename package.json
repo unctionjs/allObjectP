@@ -52,13 +52,13 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/allp": "2.8.0",
-    "@unction/fromarraytoobject": "2.48.0",
-    "@unction/keys": "3.44.0",
-    "@unction/pipe": "2.44.0",
-    "@unction/thenp": "2.8.0",
-    "@unction/values": "3.45.0",
-    "@unction/zip": "3.53.0"
+    "@unction/allp": "3.0.0",
+    "@unction/fromarraytoobject": "3.0.0",
+    "@unction/keys": "4.0.0",
+    "@unction/pipe": "3.0.0",
+    "@unction/thenp": "3.0.0",
+    "@unction/values": "4.0.0",
+    "@unction/zip": "4.0.0"
   },
   "nyc": {
     "require": [
