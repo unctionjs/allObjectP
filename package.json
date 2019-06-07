@@ -53,11 +53,11 @@
   "dependencies": {
     "@unction/allp": "4.0.0",
     "@unction/fromarraytoobject": "10.1.0",
-    "@unction/keys": "10.0.0",
+    "@unction/keys": "10.1.0",
     "@unction/pipe": "10.1.0",
     "@unction/thenp": "4.0.0",
     "@unction/values": "11.1.0",
-    "@unction/zip": "12.1.0"
+    "@unction/zip": "12.2.0"
   },
   "nyc": {
     "require": [
