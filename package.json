@@ -57,7 +57,7 @@
     "@unction/pipe": "10.2.0",
     "@unction/thenp": "4.1.0",
     "@unction/values": "11.3.0",
-    "@unction/zip": "12.4.0",
+    "@unction/zip": "12.4.1",
     "core-js": "3.0.1"
   },
   "nyc": {
