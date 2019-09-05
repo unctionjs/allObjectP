@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> RecordType => Promise<RecordType>
+> StringObjectType<T> => Promise<StringObjectType<T>>
 
 This takes an object where the values are probably promises and returns a promise that has that same object but with the resolved values.
 
