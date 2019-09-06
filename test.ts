@@ -1,5 +1,5 @@
 
-import allObjectP from "./index.ts";
+import allObjectP from "./index";
 
 test(() => {
   return allObjectP({
