@@ -54,12 +54,12 @@
   },
   "dependencies": {
     "@unction/allp": "4.1.1",
-    "@unction/fromarraytoobject": "10.6.0",
-    "@unction/keys": "10.6.0",
+    "@unction/fromarraytoobject": "10.7.0",
+    "@unction/keys": "10.7.0",
     "@unction/pipe": "10.6.0",
     "@unction/thenp": "4.2.1",
     "@unction/values": "11.7.0",
-    "@unction/zip": "12.8.0"
+    "@unction/zip": "12.9.0"
   },
   "files": [
     "index.ts",
