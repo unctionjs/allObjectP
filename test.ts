@@ -1,7 +1,7 @@
 
 import allObjectP from "./index";
 
-test(() => {
+test("works", () => {
   return allObjectP({
     aa: Promise.resolve("aa"),
     bb: Promise.resolve("bb"),
