@@ -5,8 +5,15 @@ import values from "@unction/values";
 import zip from "@unction/zip";
 import pipe from "@unction/pipe";
 import fromArrayToObject from "@unction/fromarraytoobject";
-import {StringObjectType} from "./types";
+import {ObjectType} from "./types";
 
-export default function allObjectP<T> (record: StringObjectType<T>): Promise<StringObjectType<T>> {
-  return thenP(pipe([zip(keys(record)), fromArrayToObject]))(allP(values(record)));
+export default function allObjectP<T> (record: ObjectType<T>): Promise<ObjectType<T>> {
+  return thenP(
+    pipe([
+      zip(keys(record)),
+      fromArrayToObject,
+    ])
+  )(
+    allP(values(record))
+  );
 }
