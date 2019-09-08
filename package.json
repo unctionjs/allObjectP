@@ -53,13 +53,13 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/allp": "4.1.1",
-    "@unction/fromarraytoobject": "10.7.0",
-    "@unction/keys": "10.7.0",
-    "@unction/pipe": "10.6.0",
-    "@unction/thenp": "4.2.1",
-    "@unction/values": "11.7.0",
-    "@unction/zip": "12.9.0"
+    "@unction/allp": "4.1.2",
+    "@unction/fromarraytoobject": "10.8.0",
+    "@unction/keys": "10.8.0",
+    "@unction/pipe": "10.8.0",
+    "@unction/thenp": "4.2.2",
+    "@unction/values": "11.9.0",
+    "@unction/zip": "12.10.0"
   },
   "files": [
     "index.ts",
