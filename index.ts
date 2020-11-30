@@ -6,7 +6,7 @@ import zip from "@unction/zip";
 import pipe from "@unction/pipe";
 import fromArrayToObject from "@unction/fromarraytoobject";
 
-export default function allObjectP<T> (record: ObjectType<T>): Promise<ObjectType<T>> {
+export default function allObjectP<T> (record: Record<string | number | symbol, T>): Promise<Record<string | number | symbol, T>> {
   return thenP(
     pipe([
       zip(keys(record)),
