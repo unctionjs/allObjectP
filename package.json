@@ -72,6 +72,6 @@
     "@unction/pipe": "^10.13.0",
     "@unction/thenp": "^4.2.4",
     "@unction/values": "^11.14.0",
-    "@unction/zip": "^12.15.0"
+    "@unction/zip": "^12.16.0"
   }
 }
