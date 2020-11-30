@@ -67,11 +67,11 @@
   },
   "dependencies": {
     "@unction/allp": "^4.1.4",
-    "@unction/fromarraytoobject": "^10.12.0",
-    "@unction/keys": "^10.12.0",
-    "@unction/pipe": "^10.12.0",
+    "@unction/fromarraytoobject": "^10.13.0",
+    "@unction/keys": "^10.13.0",
+    "@unction/pipe": "^10.13.0",
     "@unction/thenp": "^4.2.4",
-    "@unction/values": "^11.13.0",
-    "@unction/zip": "^12.14.0"
+    "@unction/values": "^11.14.0",
+    "@unction/zip": "^12.15.0"
   }
 }
